@@ -1,0 +1,18 @@
+{
+  "name": "product-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.16.3",
+    "jasmine": "^3.1.0",
+    "mongoose": "^5.1.4",
+    "node-restful": "^0.2.6"
+  }
+}
