@@ -1,18 +1,8 @@
-/* var connectionFactory = require('../../config/dbConfig');
-var mongoose = new connectionFactory().getMongoose();
+var mongoose = require('mongoose');
 
+var productSchema = new mongoose.Schema({
+    name: String,
+    quantity: Number
+});
 
-class DataSource {
-    getSchema() {
-        return new mongoose.Schema({
-            name: String,
-            quantity: Number
-        });
-    };
-
-    getConnection() {
-        return mongoose;
-    }
-}
-
-module.exports = DataSource; */
+module.exports = productSchema;
