@@ -7,12 +7,12 @@ class ConnectionFactory {
 
     connect() {
         mongoose.connect(mongoDB);
-        console.log("connected");
+        console.log("Database connected. . .");
     }
 
     disconnect() {
         mongoose.connection.close();
-        console.log("disconnected");
+        console.log("Database disconnected. . .");
     }
 
     getMongoose() {
